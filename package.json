@@ -3,6 +3,14 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c4mjs/c4-react.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "exports": {
     ".": {
       "types": "./dist/lib/main.d.ts",
@@ -21,7 +29,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -36,11 +43,12 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "semantic-release": "^24.2.1",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",
-    "vite-plugin-dts": "^4.4.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "vite-plugin-dts": "^4.4.0"
   }
 }
