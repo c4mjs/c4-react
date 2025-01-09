@@ -6,6 +6,8 @@ It uses React Flow for rendering the diagrams, giving interactive canvases that 
 
 The interactive zooming and panning features of React Flow make it easy to create and view large diagrams.
 
+Full documentation and working examples are available at: https://c4-react-docs.pages.dev/
+
 ## Example Uses
 
 - Embedded diagrams in technical documentation
