@@ -18,6 +18,8 @@ jobs:
           cache: npm
       - name: Install
         run: npm install
+      - name: Build
+        run: npm run build
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         env:
