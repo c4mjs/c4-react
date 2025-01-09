@@ -1,0 +1,47 @@
+body {
+	margin: 0px;
+	display: flex;
+	min-height: 100vh;
+	font-family: "Segoe UI", sans-serif;
+}
+
+#root {
+	flex: auto;
+	display: flex;
+}
+
+#app {
+	flex: auto;
+	display: grid;
+	grid-template-columns: 200px auto;
+}
+
+#nav {
+	border-right: 1px solid #dddddd;
+	background: #f9f9f9;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	gap: 10px;
+	color: darkslategray;
+}
+
+li {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: #eeeeee;
+}
+
+li:active {
+	background-color: #dddddd;
+}
+
+li.selected {
+	background-color: #dddddd;
+}

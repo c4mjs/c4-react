@@ -1,0 +1,13 @@
+.react-flow__attribution {
+	background: unset !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	.react-flow__controls-button {
+		background-color: unset;
+	}
+}
+
+.react-flow__controls-button {
+	border: unset;
+}
